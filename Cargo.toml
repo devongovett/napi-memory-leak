@@ -1,0 +1,15 @@
+[package]
+authors = ["Devon Govett <devongovett@gmail.com>"]
+edition = "2018"
+name = "napi_memory_leak"
+version = "1.0.0"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+napi = "1.7.5"
+napi-derive = "1.1.0"
+
+[build-dependencies]
+napi-build = "1.0.2"

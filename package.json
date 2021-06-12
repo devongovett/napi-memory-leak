@@ -1,0 +1,10 @@
+{
+  "name": "napi-memory-leak",
+  "version": "1.0.0",
+  "scripts": {
+    "build-release": "napi build --release"
+  },
+  "devDependencies": {
+    "@napi-rs/cli": "^1.1.0"
+  }
+}
